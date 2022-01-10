@@ -5,20 +5,28 @@ public final class PrintUtils {
     private PrintUtils() {}
 
     public static void bar() {
-        log("==========================================================");
+        internalLog("==========================================================");
     }
 
     public static void bar(String message) {
         bar();
-        log(message);
+        internalLog(message);
         bar();
     }
 
     public static void line() {
-        log("");
+        internalLog("");
     }
 
-    private static void log(String message) {
+    public static void threadLog(String message) {
+        internalLogThread(message);
+    }
+
+    private static void internalLog(String message) {
         System.out.println(message);
+    }
+
+    private static void internalLogThread(String message) {
+        System.out.println("[" + Thread.currentThread().getName() + "] : " + message);
     }
 }
