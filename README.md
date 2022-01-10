@@ -31,3 +31,5 @@
 ### 5. Using
 - [using](src/main/java/study5/UsingExample.java)
 
+### 6. Hot & Cold
+- 적절한 예시가 아닌듯..rx3 에선 다른듯? 좀더 고민..
