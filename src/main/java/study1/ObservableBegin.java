@@ -2,7 +2,7 @@ package study1;
 
 import io.reactivex.rxjava3.core.Observable;
 
-public class ObservableTest {
+public class ObservableBegin {
 
     @SuppressWarnings("ResultOfMethodCallIgnored")
     public static void main(String[] args) {
