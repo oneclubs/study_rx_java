@@ -14,9 +14,16 @@
 - [Publish](src/main/java/study2/PublishSubjectSample.java)
 - [Replay](src/main/java/study2/ReplaySubjectSample.java)
 
-### 3. interval
+### 3. Interval
 - [Interval](src/main/java/study3/IntervalExample.java)
 - [Interval range](src/main/java/study3/IntervalRangeExample.java)
 - [Repeat](src/main/java/study3/RepeatExample.java)
 - [Timer](src/main/java/study3/TimerExample.java)
 - [Defer](src/main/java/study3/DeferExample.java)
+
+### 4. Transformation
+- [map / flatMap](src/main/java/study4/MapExample.java)
+- [scan / reduce](src/main/java/study4/ScanReduceExample.java)
+- [group by](src/main/java/study4/GroupByExample.java)
+- [filter](src/main/java/study4/FilterExample.java)
+- [conditional](src/main/java/study4/ConditionalExample.java)
